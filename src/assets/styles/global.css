@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111827;
+}
+
+.dark {
+  --bg-color: #111827;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
